@@ -1,27 +1,52 @@
 ## ytdml  
   
-A simple script to get songs from youtube in mp3 format with all tags from itunes  
-  
-  
-requires:    
-apt: ```apt install ffmpeg python3-pip```  
-yum: ```yum install ffmpeg python3-pip```  
-pacman: ```pacman -S ffmpeg python-pip``` 
-  
-PIP Package  
-```sudo -H pip3 install --upgrade ytmdl```  
+DESCRIBE  
   
 Automatic install/update:
+
+```shell
+bash -c "$(curl -LSs https://github.com/dfmgr/ytdml/raw/master/install.sh)"
 ```
-bash -c "$(curl -LSs https://github.com/dfmgr/ytmdl/raw/master/install.sh)"
-```
+
 Manual install:
-```
-mv -fv "$HOME/.config/ytmdl" "$HOME/.config/ytmdl.bak"
-git clone https://github.com/dfmgr/ytmdl "$HOME/.config/ytmdl"
+  
+requires:
+
+Debian based:
+
+```shell
+apt install ytdml ffmpeg python3-pip
+```  
+
+Fedora Based:
+
+```shell
+yum install ytdml ffmpeg python3-pip
+```  
+
+Arch Based:
+
+```shell
+pacman -S ytdml ffmpeg python3-pip
+```  
+
+MacOS:  
+
+```shell
+brew install ytdml ffmpeg
 ```
   
+PIP Package:  
+
+```shell
+sudo -H pip3 install --upgrade ytmdl
+```  
+
+```shell
+mv -fv "$HOME/.config/ytdml" "$HOME/.config/ytdml.bak"
+git clone https://github.com/dfmgr/ytdml "$HOME/.config/ytdml"
+```
   
 <p align=center>
-  <a href="https://github.com/deepjyoti30/ytmdl" target="_blank">ytmdl site</a>
+  <a href="https://github.com/deepjyoti30/ytmdl" target="_blank" rel="noopener noreferrer">ytdml site</a>
 </p>  
