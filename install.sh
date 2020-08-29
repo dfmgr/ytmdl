@@ -94,10 +94,10 @@ show_optvars "$@"
 
 # end with a space
 
-APP="$APPNAME "
+APP="$APPNAME python3 ffmpeg"
 PERL=""
-PYTH=""
-PIPS="ytdml "
+PYTH="pip "
+PIPS="ytmdl "
 CPAN=""
 GEMS=""
 
